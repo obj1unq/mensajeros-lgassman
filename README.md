@@ -21,7 +21,9 @@
     1. *Puente de Brooklyn*: deja pasar a todo lo que pese hasta una tonelada (1000 kilos).
     2. *La Matrix*: deja entrar a quien pueda hacer una llamada.
  - Por el momento, nuestra empresa de mensajería tiene 3 mensajeros, con estas características:
-   1. *Chuck Norris*: Chuck siempre pesó y seguirá pesando 900 kg por toda la eternidad. Puede llamar a cualquier persona del universo con sólo llevarse el pulgar al oído y el meñique a la boca.
+   1. *Chuck Norris*: Chuck siempre pesó y seguirá pesando 900 kg por toda la eternidad. 
+   Puede llamar a cualquier persona del universo con sólo llevarse el pulgar al oído 
+   y el meñique a la boca.
    2. *Neo*: Neo vuela, así que no pesa nada. Y anda con celular, el muy canchero. El tema es que a veces no puede llamar porque se queda sin crédito.
    3. *Lincoln Hawk*:  Tiene un peso propio que varía con el tiempo. 
    Viaja en bicicleta ó camión. A ese peso propio se le suma el peso de su vehículo. 

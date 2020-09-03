@@ -1,0 +1,33 @@
+import example.*
+
+test "neo entrega a la matrix" {
+
+	assert.notThat(paquete.puedeSerEntregado(neo, matrix))
+	paquete.pago(true)
+	assert.that(paquete.puedeSerEntregado(neo,matrix))
+	neo.credito(false)
+	assert.notThat(paquete.puedeSerEntregado(neo, matrix))	
+}
+
+test "neo entrega en brooklin" {
+	assert.notThat(paquete.puedeSerEntregado(neo, brooklin))
+	paquete.pago(true)
+	assert.that(paquete.puedeSerEntregado(neo, brooklin))
+}
+
+test "chuck entrega en matrix" {
+	paquete.pago(true)
+	assert.that(paquete.puedeSerEntregado(chuck, matrix))
+}
+
+test "lincoln entrega en broklin en bicicleta" {
+	paquete.pago(true)
+	assert.that(paquete.puedeSerEntregado(lincoln, brooklin))
+}
+
+test "lincoln no entrega en brooklin en camion pesado" {
+	paquete.pago(true)
+	camion.cantidadAcoplados(1)
+	lincoln.vehiculo(camion)
+	assert.notThat(paquete.puedeSerEntregado(lincoln, brooklin))
+}
