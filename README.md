@@ -21,14 +21,21 @@
     1. *Puente de Brooklyn*: deja pasar a todo lo que pese hasta una tonelada (1000 kilos).
     2. *La Matrix*: deja entrar a quien pueda hacer una llamada.
  - Por el momento, nuestra empresa de mensajería tiene 3 mensajeros, con estas características:
-   1. *Chuck Norris*: Chuck siempre pesó y seguirá pesando 900 kg por toda la eternidad. Puede llamar a cualquier persona del universo con sólo llevarse el pulgar al oído y el meñique a la boca.
+   1. *Chuck Norris*: Chuck siempre pesó y seguirá pesando 900 kg por toda la eternidad. 
+   Puede llamar a cualquier persona del universo con sólo llevarse el pulgar al oído 
+   y el meñique a la boca.
    2. *Neo*: Neo vuela, así que no pesa nada. Y anda con celular, el muy canchero. El tema es que a veces no puede llamar porque se queda sin crédito.
-   3. *Lincoln Hawk*:  Tiene un peso propio que varía con el tiempo. Viaja en bicicleta ó camión. A ese peso propio se le suma el peso de su vehículo. La bici pesa 10kg. En cambio, el camión pesa media tonelada. Si el camión tiene acoplados, hay que agregar media tonelada adicional por cada uno de ellos. Hawk no tiene un mango, gracias que tiene cubiertas, y no puede llamar a nadie.
+   3. *Lincoln Hawk*:  Tiene un peso propio que varía con el tiempo. 
+   Viaja en bicicleta ó camión. A ese peso propio se le suma el peso de su vehículo. 
+   La bici pesa 10kg. En cambio, el camión pesa media tonelada. 
+   Si el camión tiene acoplados, hay que agregar media tonelada adicional 
+   por cada uno de ellos. 
+   Hawk no tiene un mango, gracias que tiene cubiertas, y no puede llamar a nadie.
 
 **Aclaración:** Para el cálculo del peso, el peso del paquete es despreciable.
 
 ## Algunos casos de prueba:
 1. El paquete de George que no está pago no puede ser llevado por Neo a la matrix.
 2. El paquete de George que sí está pago puede ser llevado por Chuck a la matrix
-3. El paquete de George que sí está pago no puede ser llevado por Lincoln Hawk (80kg)  a Brooklyn si es que utiliza un camión con un acoplado .
+3. El paquete de George que sí está pago no puede ser llevado por Lincoln Hawk (80kg) a Brooklyn si es que utiliza un camión con un acoplado .
 4. La entrega anterior puede hacerse si Lincoln Hawk usa una bicicleta
